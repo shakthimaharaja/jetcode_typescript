@@ -1,0 +1,22 @@
+.toolbar-logo svg {
+  width: 200px; /* Adjust width to fit your toolbar */
+  height: 80px; /* Adjust height to fit your toolbar */
+}
+.zoom {
+  /* bottom: -20px; */
+  transform-origin: 50% 65% 60%;
+  transition: transform 5s, filter 3s ease-in-out;
+  filter: brightness(150%);
+}
+
+/* The Transformation */
+.zoom:hover {
+  filter: brightness(100%);
+  transform: scale(2);
+  position: relative;
+}
+
+.align {
+  position: relative;
+  left: -100px;
+}
